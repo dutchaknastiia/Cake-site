@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Mood — Custom Cakes & Artisan Desserts</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Sweet Mood <span>🧁</span></a>
+            
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contacts" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contacts" class="btn btn-primary order-btn">Order a Cake</a>
+                <button class="burger-menu" id="burgerMenu" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+<!-- Hero Section -->
+        <section class="hero" id="hero">
+            
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="badge">🍰 Handcrafted with Love</span>
+                <h1 class="hero-title">Custom Cakes & Desserts for Your Special Moments</h1>
+                <p class="hero-subtitle">100% natural ingredients. Local delivery or studio pickup available.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                    <a href="#contacts" class="btn btn-outline">Place Order</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container about-grid">
+                <div class="about-img-wrapper">
+                    <img src="images/cake.webp" alt="Pastry Chef at work" class="about-img" loading="lazy">
+                    <div class="about-badge-card">
+                        <span>⭐ 5+ Years</span>
+                        <p>Crafting delicious memories</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Hi, I'm Tatiana!</h2>
+                    <p class="about-text">I create more than just desserts — I craft unforgettable sweet experiences for your celebrations. Every order is unique, made with care and attention to detail.</p>
+                    <ul class="about-features">
+                        <li>🌿 Organic and fresh ingredients only (no artificial flavorings).</li>
+                        <li>🍫 Premium Belgian chocolate and 82% real butter.</li>
+                        <li>🍓 Fresh seasonal berries and homemade fruit fillings.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Catalog Section -->
+        <section class="menu section" id="menu">
+            <div class="container">
+                <div class="section-header">
+                    
+                    <h2 class="section-title">Our Sweet Menu</h2>
+                    <p class="section-subtitle">Choose from our popular signature items or request a fully customized design</p>
+                </div>
+
+                <div class="menu-grid">
+                    <!-- Item 1 -->
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="images/cake2.webp" alt="Custom Celebration Cakes" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Custom Celebration Cakes</h3>
+                            <p class="menu-desc">Bespoke design, hand-picked decorations, and premium sponge layers (Vanilla, Chocolate, Red Velvet).</p>
+                            <div class="menu-footer">
+                                <span class="price">from $30 / kg</span>
+                                <a href="#contacts" class="btn-card">Select</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="images/cake3.webp" alt="Bento Mini-Cakes — Sweet Mood" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Bento Mini-Cakes</h3>
+                            <p class="menu-desc">Cute mini-cakes perfect for 1-2 people. Includes custom lettering, candle, and eco-friendly spoon.</p>
+                            <div class="menu-footer">
+                                <span class="price">from $20</span>
+                                <a href="#contacts" class="btn-card">Select</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="images/pancakes.webp" alt="Artisan Cupcakes — Sweet Mood" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <h3>Artisan Cupcakes</h3>
+                            <p class="menu-desc">Fluffy sponge topped with smooth cream cheese frosting and gourmet berry or chocolate centers.</p>
+                            <div class="menu-footer">
+                                <span class="price">from $15 (set of 4)</span>
+                                <a href="#contacts" class="btn-card">Select</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="images/French_Macarons.webp" alt="French Macarons — Sweet Mood" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <h3>French Macarons</h3>
+                            <p class="menu-desc">Delicate almond shells filled with silk chocolate ganache and fruit curds.</p>
+                            <div class="menu-footer">
+                                <span class="price">from $18 (set of 6)</span>
+                                <a href="#contacts" class="btn-card">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client Reviews</h2>
+                    <p class="section-subtitle">What our happy customers say about our creations</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="test-text">"The birthday cake for my daughter was beyond expectations! Tasted amazing and looked exactly like the design reference."</p>
+                        <span class="client-name">Sarah Jenkins</span>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="test-text">"Ordered a bento cake with custom text on short notice. Delivered right on time and the salted caramel flavor was incredible!"</p>
+                        <span class="client-name">Michael Miller</span>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="test-text">"Best cupcakes in town! We order them regularly for corporate team events. Always fresh and beautifully packed."</p>
+                        <span class="client-name">Emily Davis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section & Order Form -->
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <div class="contacts-grid">
+                    <!-- Form -->
+                    <div class="form-wrapper">
+                        <h2 class="section-title">Place Your Order</h2>
+                        <p class="section-subtitle">Fill out the form below and we will contact you shortly to confirm the details.</p>
+                        
+                        <form id="orderForm" class="order-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" placeholder="e.g. John Doe">
+                                <span class="error-msg">Please enter your name</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                                <span class="error-msg">Please enter a valid phone number</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Event Date *</label>
+                                <input type="date" id="date" name="date">
+                                <span class="error-msg">Please select a valid event date</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comment">Order Notes & Design Details</label>
+                                <textarea id="comment" name="comment" rows="4" placeholder="e.g. Bento cake, chocolate-cherry flavor with custom inscription..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn">Send Order Request</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div class="contacts-info">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="section-subtitle">We are always happy to answer your questions</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="info-icon">📍</span>
+                                <div>
+                                    <strong>Studio Address:</strong>
+                                    <p>123 Bakery Street, Suite 100, Cityville</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-icon">📞</span>
+                                <div>
+                                    <strong>Phone / Whatsapp:</strong>
+                                    <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-icon">📸</span>
+                                <div>
+                                    <strong>Instagram:</strong>
+                                    <p><a href="#" target="_blank">@sweet_mood_bakery</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-icon">⏰</span>
+                                <div>
+                                    <strong>Working Hours:</strong>
+                                    <p>Daily from 09:00 AM to 08:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Map Placeholder -->
+                        <div class="map-container">
+                            <div class="map-placeholder">
+                                <span>🗺️ Google Maps Location Placeholder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Sweet Mood Studio. All rights reserved.</p>
+            <p class="footer-author">Designed & Developed for Sweet Mood ✨</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">🎉</div>
+            <h3>Order Received!</h3>
+            <p>Thank you! We will reach out to you shortly to discuss your custom order details.</p>
+            <button class="btn btn-primary" id="closeModal">Got it!</button>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
